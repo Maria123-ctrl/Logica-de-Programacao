@@ -40,7 +40,7 @@ void setup()
 
     switch(escolhaDaOperacao){
       case 1:
-      soma = numero1 + numero2;
+      divisao = numero1 / numero2;
       Serial.println("WOW!!! O resultado foi: " + String(soma));
 
       break;
